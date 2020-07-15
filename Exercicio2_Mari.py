@@ -1,4 +1,4 @@
- -- coding: utf-8 --
+#-- coding: utf-8 --
 '''
 2. Um posto está vendendo combustíveis com a seguinte tabela de descontos:
 Álcool: até 20 litros, desconto de 3% por litro acima de 20 litros, desconto de 5% por litro
@@ -16,7 +16,7 @@ alcool = 1.90
 gasolina = 2.50
 
 litros = float(input("Quantos litros de combustivel foi colocado no automovel? "))
-combustivel = input("Foi utilizado A-alcool ou G-gasolina? ").strip().capitalize()
+combustivel = input("Foi utilizado A-alcool ou G-gasolina? ")
 
 if combustivel == "A":
 
